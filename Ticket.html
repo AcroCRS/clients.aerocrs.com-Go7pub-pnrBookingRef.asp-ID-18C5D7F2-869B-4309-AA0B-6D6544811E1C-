@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroCRS 5.95 Mann Yadanarpon Airlines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 30px;
+            color: #000;
+            line-height: 1.1;
+        }
+        .ticket-page {
+            max-width: 950px;
+            margin: auto;
+        }
+        /* Header Section */
+        .header-table {
+            width: 100%;
+            margin-bottom: 30px;
+            border: none !important;
+        }
+        .logo-img {
+            width: 260px; 
+            display: block;
+        }
+        .address-text {
+            text-align: left; 
+            font-size: 13px;
+            font-weight: bold;
+            padding-left: 40px; /*20px change from */
+            padding-top: 20px;  /*18px change from*/
+            vertical-align: top;
+            line-height: 1.3;
+        }
+        .top-qr {
+            text-align: right;
+            vertical-align: top;
+            width: 110px;
+        }
+        .top-qr img {
+            /* GitHub Link က ရှည်တဲ့အတွက် Scan ဖတ်ရလွယ်အောင် 90px ပြန်ထားပေးပါတယ် */
+            width: 90px;
+        }
+
+        /* To Section */
+        .to-section {
+            font-size: 12px;
+            margin-bottom: 40px;
+            line-height: 1.3;
+        }
+        .to-section b { font-size: 13px; }
+
+        /* PNR Header */
+        .pnr-title {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .pnr-title h2 { margin: 0; font-size: 20px; font-weight: bold; }
+        .pnr-title p { margin: 2px 0; font-size: 13px; }
+
+        /* Tables */
+        .section-label {
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 5px;
+            display: block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            font-size: 11px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+            padding: 3px 5px;
+            font-weight: bold;
+        }
+        td {
+            padding: 3px 5px;
+        }
+
+        .traveller-table {
+            width: 200px;
+        }
+
+        /* Remarks Section */
+        .remarks-box {
+            font-size: 12px;
+            margin-top: 25px;
+        }
+        .remarks-box ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+
+        /* Terms & Conditions Section */
+        .terms-section {
+            font-size: 10px;
+            margin-top: 30px;
+            line-height: 1.4;
+        }
+        .terms-header {
+            font-weight: bold;
+            font-size: 13px;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .iata-notice {
+            margin: 10px 0;
+            color: #000;
+        }
+        .iata-notice a { 
+            color: #0000EE; 
+            text-decoration: underline; 
+        }
+
+        /* Footer */
+        .footer-info {
+            margin-top: 40px;
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .go7-logo {
+            background: #2a3132;
+            color: white;
+            padding: 1px 4px;
+            font-weight: bold;
+            border-radius: 2px;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="ticket-page">
+    <table class="header-table" style="border: none;">
+        <tr style="border: none;">
+            <td style="border: none; width: 35%;">
+                <img src="https://airmyp.com/wp-content/uploads/2025/12/logo.png" class="logo-img" alt="Mann Yadanarpon Airlines Logo">
+            </td>
+            <td style="border: none;" class="address-text">
+                Mann Yadanarpon Airlines<br>
+                Airport Road<br>
+                Yangon International Airport Estate<br>
+                Mingalardon Township, Yangon, Myanmar 11021
+            </td>
+            <td style="border: none;" class="top-qr">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://eric3000soemoe.github.io/clients.aerocrs.com-Go7pub-pnrBookingRef.asp-ID-18C5D7F2-869B-4309-AA0B-6D6544811E1C/" alt="GitHub Live Link QR">
+            </td>
+        </tr>
+    </table>
+
+    <div class="to-section">
+        <b>To</b><br>
+        <b>Maing Fong Travels and Tours</b><br>
+        25, Ground Floor, 38th St,<br>
+        Kyauktada Tsp<br>
+        Yangon<br>
+        Myanmar<br>
+        Phone: 01
+    </div>
+
+    <div class="pnr-title">
+        <h2>E-ticket Pnr Ref. 24518C5D</h2>
+        <p>Ticket Number: MYP18701824</p>
+    </div>
+
+    <span class="section-label">Flights:</span>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Date</th>
+            <th>Flight</th>
+            <th>From</th>
+            <th>STD</th>
+            <th>To</th>
+            <th>STA</th>
+            <th>Class</th>
+            <th>Baggage</th>
+            <th>Checkin Time</th>
+            <th>Status</th>
+            <th>Rate</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>26-Apr-26</td>
+            <td>7Y532</td>
+            <td>Dawei</td>
+            <td>08:25</td>
+            <td>Yangon</td>
+            <td>09:35</td>
+            <td>M</td>
+            <td>1XAdult - 20Kg</td>
+            <td>90 min.</td>
+            <td>Confirmed</td>
+            <td>1,075,000 MMK</td>
+        </tr>
+    </table>
+
+    <span class="section-label">Travellers: <span style="font-weight: normal; font-size: 11px;">(Count: Adult: 2)</span></span>
+    <table class="traveller-table">
+        <tr><th>Traveller Name</th></tr>
+        <tr><td>MR. SOE MOE NAING</td>
+        <tr><td>MS. MAY ZIN KYAW</td>
+        </tr>
+    </table>
+
+    <div class="remarks-box">
+        <span class="section-label">Flight Remarks:</span>
+        <div style="margin-left: 10px;">
+            Rules:
+            <ul>
+                <li>Flight 7Y532:
+                    <ul>
+                        <li><b>FLY ALLIANCE BY ONE TICKET operated by MYP FLIGHT (7Y -532)</b></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="terms-section">
+        <span class="terms-header">Terms & Conditions:</span>
+        Transportation and other services provided by the carrier are subject to conditions of contract and other important notices. Please ensure that you have received these notices, and if not, contact the travel agent or issuing carrier to obtain a copy prior to the commencement of your trip.<br><br>
+        If the passenger journey involves an ultimate destination or stop in a country other than the country of departure, the Warsaw Convention may be applicable and this convention governs and on most cases limits the liability of carriers for death or personal injury and in respect of loss of or damage to baggage.<br>
+        
+        <div class="iata-notice">
+            IATA Ticket Notice: <a href="https://airmyp.com/terms-conditions/">https://airmyp.com/terms-conditions/</a>
+        </div>
+
+        According to the letter from <b>Department of Civil Aviation (DCA) dated 29th June, 2016, all domestic airports</b> will start collecting Passenger Service Charges (PSC) from departing passengers based on the new rates <b>with effect from 1st July, 2016.</b> We will collect PSC based on the new rate of <b>USD 3.00 for international airports (Yangon, Mandalay and Naypyitaw) and USD 1.00 for other domestic Schedule Departure Flights.</b>
+    </div>
+
+    <div class="footer-info">
+        <div id="real-time-footer"></div>
+        <div>Powered By <span class="go7-logo">GO7</span></div>
+    </div>
+</div>
+
+<script>
+    function updateDateTime() {
+        const now = new Date();
+        const day = now.getDate().toString().padStart(2, '0');
+        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        const month = months[now.getMonth()];
+        const year = now.getFullYear().toString().slice(-2);
+        const hours = now.getHours().toString().padStart(2, '0');
+        const minutes = now.getMinutes().toString().padStart(2, '0');
+
+        const formattedTime = `${day}-${month}-${year} ${hours}:${minutes}, By user: Website`;
+        document.getElementById('real-time-footer').textContent = formattedTime;
+    }
+
+    updateDateTime();
+    setInterval(updateDateTime, 60000);
+</script>
+
+</body>
+</html>
